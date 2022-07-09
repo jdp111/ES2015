@@ -1,0 +1,4 @@
+1. var is an older variable type, and its scope is wider than block. let does not allow reassignment, and the scope is in the block only.
+2. var allows you to redeclare and reassign, const does not allow you to redeclare or reassign. const is block scope, while var is wider scope.
+3. const is not allowed to be reassigned, while let allows reassignment
+4. when an object is declared, the declaration can be identified in the code before it is assigned, thus a variable that is declared anywhere in the code is initialized first as 'undefiined'.
