@@ -1,6 +1,6 @@
-const filterOutOdds =  (...nums) => (nums.filter(()=> nums %2 ===0));
+const filterOutOdds =  (...nums) => {return nums.filter(El => {return El %2  == 0})}
 
-const mergeObject = (first,second) => ({...first,...second});
+const mergeObject = (first,second) => {return {...first,...second}};
 
 const doubleAndReturnArgs = (arr, ...others) => {
     const doubles = [others];
@@ -27,11 +27,13 @@ const extend = (array1,array2) => {
 
 
 const addKeyVal = (obj,key,val) =>{
-    return {key: val, ...obj};   
+    return {[key]: val, ...obj};   
 }
 
 const removeKey = (obj, key) => {
-    return {...obj}.removeKey(key);
+    const int =  {...obj}
+    delete int[key];
+    return key;
 }
 
 const combine = (obj1, obj2) => {
@@ -39,5 +41,5 @@ const combine = (obj1, obj2) => {
 }
 
 const update = (obj, key, val) => {
-    return {...obj, key: val};
+    return {...obj, [key]: val};
 }
