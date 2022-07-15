@@ -1,0 +1,24 @@
+1. 
+    8
+    1846
+
+2.
+    [1846,1659]
+
+3.
+    Your name is Alejandro and you like purple
+    Your name is Melissa and you like green
+
+4.
+    Maya
+    Marisa
+    Chi
+
+5. 
+    Raindrops on roses
+    whiskers on kittens
+    ["Bright copper kettles","warm woolen mittens","Brown paper packages tied up with strings"]
+
+6.
+    [10,30,20]
+
